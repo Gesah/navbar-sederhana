@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+.header {
+  background-color: #033c58;
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  overflow: hidden;
+}
+.logo {
+  margin: 10px;
+  margin-right: 20px;
+  position: fixed;
+  display: inline-block;
+  overflow: hidden;
+}
+.logo img {
+  margin: 4px;
+  text-align: center;
+  margin-top: 3px;
+}
+.bulat {
+  background-color: white;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  display: inline;
+  overflow: hidden;
+  position: fixed;
+}
+
+.logo :nth-child(2) {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  display: inline-block;
+  margin-left: 35px;
+  position: fixed;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 15px 18px;
+  display: inline-block;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+li a.active,
+li a:hover {
+  background-color: white;
+  color: #033c58;
+}
+/* Bagian Gallery */
+h1 {
+  text-align: center;
+}
+.parent {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  height: 60%;
+}
+.child img {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgb(192, 20, 20);
+  background-color: violet;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px;
+  top: 50%;
+}
